@@ -65,7 +65,7 @@ public class HierarchicalNodeManager {
 
     private static final int NO_NODE = -1;
 
-    private static final int ID_TYPE_MSK = (3<<30);
+    private static final int ID_TYPE_MSK = (3<<29);
     private static final int ID_TYPE_LEAF = (3<<30);
     private static final int ID_TYPE_INNER = 0;
     private static final int ID_TYPE_REQUEST = (2<<30);
